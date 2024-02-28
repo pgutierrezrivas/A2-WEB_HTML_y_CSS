@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Breaking Bad;
+    src: url(../fonts/Breaking\ Bad.ttf);
+}
+.fontBbad{
+    font-family: Breaking Bad;
+}
+body{
+    font-family: Helvetica;
+    text-align: center;
+}
+body.imgFondo{
+    background-image: url(../media/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+body.green{
+    background-color: #0c3e11;
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.marginTop35{
+    margin-top: 35px;
+}
+.subtitle{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#indexPoster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset #a52a2a;
+    border-radius: 22px;
+}
+#indexLogo{
+    width: 200px;
+    height: 200px;
+}
+#formulario{
+    background-color: #ffffff;
+    opacity: 0.7;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 #ffffffcc;
+    border-radius: 10px;
+    position: relative;
+    margin: 45px;
+    max-width: 400px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+#data{
+    color: #2C7FE1;
+    background: none;
+    padding: 10px 0px 6px 0px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #5e5d5dcc;
+    outline: none;
+}
+#personaje{
+    width: 100%;
+}
+#comentarios{
+    color: #2C7FE1;
+    outline: none;
+    width: 252px;
+    padding: 0;
+}
+.personalData{
+    max-width: 254px;
+    margin: auto;
+    text-align: left;
+}
+.required{
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: oblique;
+}

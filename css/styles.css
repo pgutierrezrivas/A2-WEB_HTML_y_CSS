@@ -80,6 +80,11 @@ body.green {
     width: 252px;
     padding: 0;
 }
+#tablaCabecera {
+    width: 550px;
+    height: 250px;
+}
+
 .personalData {
     max-width: 254px;
     margin: auto;
@@ -93,18 +98,18 @@ body.green {
     font-style: oblique;
 }
 .periodicTable {
-    border: 4px solid #1A221E;
+    border: 3px solid #1A221E;
     border-spacing: 0;
     margin-top: 40px;
     margin-bottom: 50px;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bolder;
 }
 td {
-    min-width: 95px;
-    max-width: 95px;
-    height: 75px;
-    border: 5px solid #1A221E;
+    min-width: 85px;
+    max-width: 85px;
+    border: 4px solid #1A221E;
+    padding-top: 4px;
 }
 .greenType1 {
     background-color: #C3C627;
@@ -121,6 +126,18 @@ td {
 .greenType5 {
     background-color: #89A418;
 }
+.greenType6 {
+    background-color: #627126;
+}
+.greenType7 {
+    background-color: #BBC49F;
+}
+.greenType8 {
+    background-color: #C5E345;
+}
+.greenType9 {
+    background-color: #818C56;
+}
 .purple {
     background-color: #676BB0;
 }
@@ -130,6 +147,7 @@ td {
 .smallText {
     font-size: 12px;
     margin-top: 5px;
+    margin-bottom: 1px;
     font-weight: normal;
 }
 .hankSchraderColor {
